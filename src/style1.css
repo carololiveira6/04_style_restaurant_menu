@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    background-image: url("./img/map-bg.jpg");
+}
+
+nav {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+#main {
+    width: 900px;
+    margin: 10px auto;
+}
+
+h1 {
+    font-family: "Supermercado One", Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #5d4037;
+}
+
+#menu {
+    columns: 400px 2;
+    column-gap: 100px;
+    column-rule: 2px dashed rosybrown;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-variant-caps: small-caps;
+    color: #6d4c41;
+}
+
+dt {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 12px 0;
+    display: flex;
+}
+
+.details {
+    order: 1;
+}
+
+.price {
+    order: 2;
+    padding-left: 10px;
+    font-size: large;
+    color: firebrick;
+}
+
+address {
+    padding: 10px;
+    border: 2px dashed rosybrown;
+}
+
+/* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the './img/map-bg.jpg' image.
+Use a família de fontes 'Lato' em 18px em todo o corpo do documento e cubra o fundo com a imagem './img/map-bg.jpg'. */
+
+/* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name.
+Use a fonte 'Supermercado One' em 45px (colorido # 5d4037) para o nome do restaurante. */
+
+/* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown.
+Defina o separador entre as colunas (a "regra da coluna") para ter 2px tracejado rosybrown. */
+
+/* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41.
+Mostre cada um dos cabeçalhos de seção do menu (por exemplo, "Starters") em versalete, colorido # 6d4c41. */
+
+/* Make the name of each menu item appear in bold in a 20px size.
+Faça com que o nome de cada item do menu apareça em negrito em um tamanho de 20px. */
+
+/* Show the price of each item in a large font, in the color named 'firebrick'
+Mostre o preço de cada item em uma fonte grande, na cor chamada 'tijolo refratário' */
+
+/* Draw a 2px dashed rosybrown border around the address/footer
+Desenhe uma borda castanha-rosada tracejada de 2 pixels ao redor do endereço / rodapé */
